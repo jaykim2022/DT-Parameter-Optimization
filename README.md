@@ -10,6 +10,7 @@ Trains a model based on ANSYS simulation results of different configurations of 
 - Surrogate model was used due to low sample size
 - Maps 12 input parameters onto the 4 outputs simultaenously, multi-output regression
 - Multi-output regression was used over 4 separate models because the outputs are likely correlated --> able to predict better with lower volume of data / prevents overfitting
+![Example Results](images/example_results.png)
 
 Model Choice: Random forest
 - Works well with smaller datasets, linear regeression would be too simple whereas NN's would require too many samples
